@@ -6,6 +6,13 @@ import xmltodict
 
 import numpy as np
 
+__author__ = "Will Hewitt"
+__credits__ = ["Will Hewitt"]
+__version__ = "1.0.0"
+__maintainer__ = "Will Hewitt"
+__email__ = "me@hewittwill.com"
+__status__ = "Development"
+
 class ECGXMLReader:
     """ Extract voltage data from a ECG XML file """
     def __init__(self, path, augmentLeads=False):
